@@ -21,6 +21,7 @@
 
 -(void)sayHello{
     NSLog(@"hellow");
+    NSLog(@"helloWorld");
 }
 
 - (void)didReceiveMemoryWarning {
