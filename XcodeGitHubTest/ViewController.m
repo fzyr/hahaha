@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic,strong) NSString *name;
 @end
 
 @implementation ViewController
@@ -18,6 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+
+
 
 -(void)sayHello{
     NSLog(@"hellow");
