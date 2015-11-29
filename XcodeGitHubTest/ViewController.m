@@ -22,6 +22,9 @@
 -(void)sayHello{
     NSLog(@"hellow");
 }
+-(void)sayHi{
+    NSLog(@"Hi");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
