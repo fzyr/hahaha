@@ -21,6 +21,8 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    int a = 10;
+    int b = 20;
     // Dispose of any resources that can be recreated.
 }
 
