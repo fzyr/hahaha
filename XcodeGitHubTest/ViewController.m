@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)sayHi{
+    NSLog(@"Hi");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     int a = 10;
